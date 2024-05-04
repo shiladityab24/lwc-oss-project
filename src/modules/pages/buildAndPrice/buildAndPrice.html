@@ -25,7 +25,7 @@
     </main>
     <template lwc:if={showModal}>
         <components-modal heading="Fill in your details">
-            <h1>Form will come here</h1>
+            <components-lead-form description={description}></components-lead-form>
             <div slot="footer">
                 <button class="slds-button slds-button_neutral" onclick={cancelHandler}>Cancel</button>
                 <button class="slds-button slds-button_destructive" onclick={submitHandler}>Submit</button>

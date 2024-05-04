@@ -114,6 +114,11 @@ export default class BuildAndPrice extends LightningElement {
     }
     submitHandler(){
       console.log("Form Submitted!!")
+      this.template.querySelector('components-lead-form').formSubmit()
+    }
+
+    get description(){
+      return `Customer is looking for CRV ${this.selectedVariant.variant} of color ${this.selectedColorName}`
     }
 
 
