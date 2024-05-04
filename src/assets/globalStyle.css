@@ -1,0 +1,15 @@
+/* html{
+    background-color: red;
+} */
+body{
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+/** Three ways to add the (SLDS)
+
+
+    1. Using CDN
+    2. By copying CSS file directly
+    3. By installing the package through npm and copy that file to assets
+*/
